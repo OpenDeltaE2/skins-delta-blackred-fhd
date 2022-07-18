@@ -420,7 +420,7 @@
 	</screen>
 <!-- Infobar Template -->
 <screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
-	<ePixmap alphatest="off" pixmap="infobar/info_bg-red.png" position="0,868" size="1920,215" zPosition="-1"/>
+	<ePixmap alphatest="off" pixmap="infobar/info_bg-red.png" position="0,868" size="1920,210" zPosition="-1"/>
     <eLabel name="" position="0,0" size="1920,75" backgroundColor="background" foregroundColor="transparent" />
     <eLabel text="AREADELTASAT" position="48,6" size="550,70" font="error; 40" backgroundColor="white" foregroundColor="white" transparent="1" halign="left" />
   <!--  -->
