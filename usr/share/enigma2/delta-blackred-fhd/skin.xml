@@ -517,7 +517,7 @@
     <convert type="ConditionalShowHide" />
   </widget>
   <!-- Date Time  -->
-  <widget source="global.CurrentTime" render="Label" position="1340,20" size="550,30" font="PG;25" foregroundColor="white" backgroundColor="background_tux" transparent="1" halign="center" zPosition="1">
+  <widget source="global.CurrentTime" render="Label" position="1340,20" size="550,30" font="PG;22" foregroundColor="white" backgroundColor="background_tux" transparent="1" halign="center" zPosition="1">
     <convert type="ClockToText">Format: %A, %d.%m.%Y  %H:%M:%S</convert>
   </widget>
   <!--  -->
@@ -592,8 +592,12 @@
     <convert type="ServiceInfo">SubservicesAvailable</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <eLabel position="210,1014" size="985,1" backgroundColor="yellow" />
-  <eLabel position="10,918" size="1900,1" backgroundColor="yellow" />
+  <!-- Separator -->
+  <eLabel position="10,1026" size="1900,1" backgroundColor="darkgrey" />
+  <eLabel position="10,918" size="1900,1" backgroundColor="darkgrey" />
+  <eLabel position="10,870" size="1900,1" backgroundColor="darkgrey" />
+  <eLabel position="10,870" size="1,210" backgroundColor="darkgrey" />
+  <eLabel position="1910,870" size="1,210" backgroundColor="darkgrey" />
   <!-- Cpu e Fan -->
   <eLabel text="CPU:" position="40,1040" size="100,30" font="PG;20" backgroundColor="background" foregroundColor="red" transparent="1" valign="center" halign="left" />
   <widget source="session.CurrentService" render="Label" font="PG;22" position="140,1040" size="120,30" valign="center" halign="left" backgroundColor="background" transparent="1" noWrap="1" foregroundColor="yellow">
@@ -667,7 +671,7 @@
     <convert type="ConditionalShowHide" />
   </widget>
   
-  <eLabel position="10,1079" size="1900,1" backgroundColor="white" />
+  <eLabel position="10,1079" size="1900,1" backgroundColor="darkgrey" />
 </screen>
 <!-- SecondInfoBar  -->
 <screen name="SecondInfoBar" position="0,0" size="1920,865" title="InfoBar" backgroundColor="background" transparent="0" flags="wfNoBorder">
@@ -770,7 +774,7 @@
     <convert type="MSNWeather">winddisplay</convert>
   </widget>
   <!-- Date Time -->
-  <widget source="global.CurrentTime" render="Label" position="1340,20" size="550,30" font="PG;25" foregroundColor="white" backgroundColor="background_tux" transparent="1" halign="center" zPosition="1">
+  <widget source="global.CurrentTime" render="Label" position="1340,20" size="550,30" font="PG;22" foregroundColor="white" backgroundColor="background_tux" transparent="1" halign="center" zPosition="1">
     <convert type="ClockToText">Format: %A, %d.%m.%Y  %H:%M:%S</convert>
   </widget>
   <!-- Line -->
