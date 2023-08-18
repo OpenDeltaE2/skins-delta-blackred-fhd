@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <skin>
-	<!-- Skin: PLi-HD1, based on Magic_HD_Shadow_MiniTV by Vali (c)2009-2010 -->
+	<!-- Skin: delta-blackred-fhd, based on Magic_HD_Shadow_MiniTV by Vali (c)2009-2010 -->
 	<!-- This skin include derived work from VU+NL, Milo, IMS and others -->
 	<!-- This skin is a Freeware. Everyone can modify and use it in other images. -->
 	<!-- BUT DO NOT REMOVE OR CHANGE THE SECOND LINE IN !!! -->
@@ -119,8 +119,8 @@
 	</parameters>
 
 	<switchpixmap>
-		<pixmap name="menu_on" filename="icons/menu_on.png"/>
-		<pixmap name="menu_off" filename="icons/menu_off.png"/>
+		<pixmap name="menu_on" filename="delta-blackred-fhd/icons/menu_on.png"/>
+		<pixmap name="menu_off" filename="delta-blackred-fhd/icons/menu_off.png"/>
 	</switchpixmap>
 
 	<!-- Window -->
@@ -140,20 +140,20 @@
 		<color name="WindowTitleForeground" color="foreground"/>
 		<color name="WindowTitleBackground" color="background"/>
 		<borderset name="bsWindow">
-			<pixmap filename="window/top_left_corner.png" pos="bpTopLeft"/>
-			<pixmap filename="window/top_edge.png" pos="bpTop"/>
-			<pixmap filename="window/top_right_corner.png" pos="bpTopRight"/>
-			<pixmap filename="window/left_edge.png" pos="bpLeft"/>
-			<pixmap filename="window/right_edge.png" pos="bpRight"/>
-			<pixmap filename="window/bottom_left_corner.png" pos="bpBottomLeft"/>
-			<pixmap filename="window/bottom_edge.png" pos="bpBottom"/>
-			<pixmap filename="window/bottom_right_corner.png" pos="bpBottomRight"/>
+			<pixmap filename="delta-blackred-fhd/window/top_left_corner.png" pos="bpTopLeft"/>
+			<pixmap filename="delta-blackred-fhd/window/top_edge.png" pos="bpTop"/>
+			<pixmap filename="delta-blackred-fhd/window/top_right_corner.png" pos="bpTopRight"/>
+			<pixmap filename="delta-blackred-fhd/window/left_edge.png" pos="bpLeft"/>
+			<pixmap filename="delta-blackred-fhd/window/right_edge.png" pos="bpRight"/>
+			<pixmap filename="delta-blackred-fhd/window/bottom_left_corner.png" pos="bpBottomLeft"/>
+			<pixmap filename="delta-blackred-fhd/window/bottom_edge.png" pos="bpBottom"/>
+			<pixmap filename="delta-blackred-fhd/window/bottom_right_corner.png" pos="bpBottomRight"/>
 		</borderset>
 		<borderset name="bsListboxEntry">
-			<pixmap filename="border/line.png" pos="bpTop"/>
-			<pixmap filename="border/line.png" pos="bpBottom"/>
-			<pixmap filename="border/vline.png" pos="bpLeft"/>
-			<pixmap filename="border/vline.png" pos="bpRight"/>
+			<pixmap filename="delta-blackred-fhd/border/line.png" pos="bpTop"/>
+			<pixmap filename="delta-blackred-fhd/border/line.png" pos="bpBottom"/>
+			<pixmap filename="delta-blackred-fhd/border/vline.png" pos="bpLeft"/>
+			<pixmap filename="delta-blackred-fhd/border/vline.png" pos="bpRight"/>
 		</borderset>
 	</windowstyle>
 
@@ -162,8 +162,8 @@
 		<widget source="session.CurrentService" render="Label" position="c-624,6" size="1248,74" backgroundColor="transparent" zPosition="1" foregroundColor="foreground" borderWidth="2" font="Regular;36" borderColor="black" valign="center" halign="center">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<ePixmap pixmap="dvr/scale1024.png" position="42,87" size="1536,12" zPosition="1"/>
-		<widget source="session.CurrentService" render="PositionGauge" position="42,84" size="1536,18" transparent="1" zPosition="4" pointer="dvr/position_pointer1024.png:1536,4">
+		<ePixmap pixmap="delta-blackred-fhd/dvr/scale1024.png" position="42,87" size="1536,12" zPosition="1"/>
+		<widget source="session.CurrentService" render="PositionGauge" position="42,84" size="1536,18" transparent="1" zPosition="4" pointer="delta-blackred-fhd/dvr/position_pointer1024.png:1536,4">
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="42,46" size="135,37" backgroundColor="transparent" zPosition="4" foregroundColor="foreground" borderWidth="2" font="Regular;33" borderColor="black" valign="center" halign="left">
@@ -185,7 +185,7 @@
 	    </screen>
 	    <screen name="TopTemplate">
 		<eLabel position="0,0" size="1920,87" backgroundColor="background"/>
-		<ePixmap pixmap="border/smallshadowline.png" position="0,87" size="1920,3" zPosition="2"/>
+		<ePixmap pixmap="delta-blackred-fhd/border/smallshadowline.png" position="0,87" size="1920,3" zPosition="2"/>
 		<widget source="screen_path" render="Label" position="30,5" size="1860,20" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;19" valign="center" halign="left"/>	
 		<widget source="Title" render="Label" position="30,7" size="1860,75" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>
         <widget source="global.CurrentTime" render="Label" position="1012,36" size="610,35" font="PG;25" foregroundColor="white" backgroundColor="background_tux" transparent="1" halign="center" zPosition="1">
@@ -199,7 +199,7 @@
 		<panel name="TopTemplate"/>
 		<panel name="ButtonTemplate"/>
 		<eLabel position="0,1022" size="1920,58" backgroundColor="background"/>
-		<ePixmap pixmap="border/smallshadowline.png" position="0,1020" size="1920,3"/>
+		<ePixmap pixmap="delta-blackred-fhd/border/smallshadowline.png" position="0,1020" size="1920,3"/>
 	    </screen>
 	    <screen name="TextTemplate">
 		<widget name="text" position="30,528" size="720,481" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;30"/>
@@ -251,38 +251,38 @@
 <!-- VKeyIconPanel -->
 	<!--This conditionally shows "Text" to indicate that the virtual keyboard can be activated by pressing the "Subtitle/Text" button-->
 	<screen name="VKeyIconPanel">
-		<widget source="VKeyIcon" conditional="VKeyIcon" render="Pixmap" pixmap="buttons/key_text.png" zPosition="10" alphatest="blend" position="30,1032" size="52,38">
+		<widget source="VKeyIcon" conditional="VKeyIcon" render="Pixmap" pixmap="delta-blackred-fhd/buttons/key_text.png" zPosition="10" alphatest="blend" position="30,1032" size="52,38">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 	</screen>
 
 	<!-- Button Graphic Templates -->
 	<screen name="ButtonGraphicRed">
-		<widget objectTypes="key_red,StaticText" source="key_red" render="Pixmap" pixmap="buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_red,StaticText" source="key_red" render="Pixmap" pixmap="delta-blackred-fhd/buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap objectTypes="key_red,Button,Label" pixmap="buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend"/>
+		<ePixmap objectTypes="key_red,Button,Label" pixmap="delta-blackred-fhd/buttons/red.png" position="192,1032" size="34,34" zPosition="1" alphatest="blend"/>
 	</screen>
 
 	<screen name="ButtonGraphicGreen">
-		<widget objectTypes="key_green,StaticText" source="key_green" render="Pixmap" pixmap="buttons/green.png" position="628,1032" size="34,34" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_green,StaticText" source="key_green" render="Pixmap" pixmap="delta-blackred-fhd/buttons/green.png" position="628,1032" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap objectTypes="key_green,Button,Label" pixmap="buttons/green.png" position="628,1032" size="34,34" zPosition="1" alphatest="blend"/>
+		<ePixmap objectTypes="key_green,Button,Label" pixmap="delta-blackred-fhd/buttons/green.png" position="628,1032" size="34,34" zPosition="1" alphatest="blend"/>
 	</screen>
 
 	<screen name="ButtonGraphicYellow">
-		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Pixmap" pixmap="buttons/yellow.png" position="1064,1032" size="34,34" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Pixmap" pixmap="delta-blackred-fhd/buttons/yellow.png" position="1064,1032" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap objectTypes="key_yellow,Button,Label" pixmap="buttons/yellow.png" position="1064,1032" size="34,34" zPosition="1" alphatest="blend"/>
+		<ePixmap objectTypes="key_yellow,Button,Label" pixmap="delta-blackred-fhd/buttons/yellow.png" position="1064,1032" size="34,34" zPosition="1" alphatest="blend"/>
 	</screen>
 
 	<screen name="ButtonGraphicBlue">
-		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Pixmap" pixmap="buttons/blue.png" position="1500,1032" size="34,34" zPosition="1" alphatest="blend">
+		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Pixmap" pixmap="delta-blackred-fhd/buttons/blue.png" position="1500,1032" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap objectTypes="key_blue,Button,Label" pixmap="buttons/blue.png" position="1500,1032" size="34,34" zPosition="1" alphatest="blend"/>
+		<ePixmap objectTypes="key_blue,Button,Label" pixmap="delta-blackred-fhd/buttons/blue.png" position="1500,1032" size="34,34" zPosition="1" alphatest="blend"/>
 	</screen>
 
 	<!-- Button Text Templates -->
@@ -342,78 +342,78 @@
 	</screen>
 
 	<screen name="KeyMenuAutoTemplate"><!-- show with Components.Sources.Boolean -->
-		<widget source="key_menu" conditional="key_menu" render="Pixmap" pixmap="buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38">
+		<widget source="key_menu" conditional="key_menu" render="Pixmap" pixmap="delta-blackred-fhd/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 	</screen>
 
 	<screen name="KeyInfoAutoTemplate"><!-- show with Components.Sources.Boolean -->
-		<widget source="key_info" conditional="key_info" render="Pixmap" pixmap="buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38">
+		<widget source="key_info" conditional="key_info" render="Pixmap" pixmap="delta-blackred-fhd/buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38">
 			<convert type="ConditionalShowHide"/>
 		</widget>
 	</screen>
 
 	<screen name="KeyChannelTemplate">
-		 <ePixmap pixmap="buttons/key_channel.png" alphatest="blend" position="30,1031" size="52,38"/>
+		 <ePixmap pixmap="delta-blackred-fhd/buttons/key_channel.png" alphatest="blend" position="30,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyMenuTemplate">
-		 <ePixmap pixmap="buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38"/>
+		 <ePixmap pixmap="delta-blackred-fhd/buttons/key_menu.png" alphatest="blend" position="82,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyVideoTemplate">
-		 <ePixmap pixmap="buttons/key_video.png" alphatest="blend" position="30,1031" size="52,38"/>
+		 <ePixmap pixmap="delta-blackred-fhd/buttons/key_video.png" alphatest="blend" position="30,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyInfoTemplate">
-		<ePixmap pixmap="buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_info.png" alphatest="blend" position="135,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyPrevNextTemplate">
-		<ePixmap pixmap="buttons/key_prevnext.png" alphatest="blend" position="135,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_prevnext.png" alphatest="blend" position="135,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyZeroTemplate">
-		<ePixmap pixmap="buttons/key_0.png" alphatest="blend" position="30,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_0.png" alphatest="blend" position="30,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyOkTemplate">
-		<ePixmap pixmap="buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_ok.png" alphatest="blend" position="30,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyOneTemplate">
-		<ePixmap pixmap="buttons/key_1.png" alphatest="blend" position="30,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_1.png" alphatest="blend" position="30,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyHelpLTemplate">
-		<ePixmap pixmap="buttons/key_help.png" alphatest="blend" position="30,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_help.png" alphatest="blend" position="30,1031" size="52,38"/>
 	</screen>
 	<screen name="KeyHelpMTemplate">
-		<ePixmap pixmap="buttons/key_help.png" alphatest="blend" position="82,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_help.png" alphatest="blend" position="82,1031" size="52,38"/>
 	</screen>
 	<screen name="KeyHelpRTemplate">
-		<ePixmap pixmap="buttons/key_help.png" alphatest="blend" position="135,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_help.png" alphatest="blend" position="135,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyTextTemplate">
-		<ePixmap pixmap="buttons/key_text.png" alphatest="blend" position="619,1031" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_text.png" alphatest="blend" position="619,1031" size="52,38"/>
 	</screen>
 
 	<screen name="KeyTextTemplateBlue">
-		<ePixmap pixmap="buttons/key_text.png" alphatest="blend" position="1500,1032" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_text.png" alphatest="blend" position="1500,1032" size="52,38"/>
 	</screen>
 
 	<screen name="KeyExit">
-		<ePixmap pixmap="buttons/key_exit.png" alphatest="blend" position="183,1032" size="52,38"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/key_exit.png" alphatest="blend" position="183,1032" size="52,38"/>
 	</screen>
 
 	<screen name="CancelTemplate">
-		<ePixmap pixmap="buttons/red.png" position="192,1032" size="34,34" alphatest="blend"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/red.png" position="192,1032" size="34,34" alphatest="blend"/>
 		<widget name="canceltext" position="242,1030" zPosition="2" size="370,38" font="Regular;36" halign="left" backgroundColor="background" transparent="1"/>
 	</screen>
 
 	<screen name="OKTemplate">
-		<ePixmap pixmap="buttons/green.png" position="628,1032" size="34,34" alphatest="blend"/>
+		<ePixmap pixmap="delta-blackred-fhd/buttons/green.png" position="628,1032" size="34,34" alphatest="blend"/>
 		<widget name="oktext" position="678,1030" zPosition="2" size="370,38" font="Regular;34" halign="left" backgroundColor="background" transparent="1"/>
 	</screen>
 
@@ -443,26 +443,26 @@
 		<panel name="PigTemplate"/>
 		<panel name="ConfigTemplate"/>
 		<panel name="DescriptionTemplate"/>
-		<widget name="HelpWindow" conditional="HelpWindow" pixmap="buttons/vkey_icon.png" position="3,310" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
+		<widget name="HelpWindow" conditional="HelpWindow" pixmap="delta-blackred-fhd/buttons/vkey_icon.png" position="3,310" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
 		<widget name="introduction" conditional="introduction" position="0,0" size="0,0"/>
 	</screen>
 
 <!-- Hideable buttons -->
 
 	<screen name="KeyPrevNextTemplate_Hideable">
-		<widget name="h_prev" pixmap="buttons/key_prev.png" zPosition="1" alphatest="blend" position="30,1031" size="52,38"/>
-		<widget name="h_next" pixmap="buttons/key_next.png" zPosition="1" alphatest="blend" position="82,1031" size="52,38"/>
+		<widget name="h_prev" pixmap="delta-blackred-fhd/buttons/key_prev.png" zPosition="1" alphatest="blend" position="30,1031" size="52,38"/>
+		<widget name="h_next" pixmap="delta-blackred-fhd/buttons/key_next.png" zPosition="1" alphatest="blend" position="82,1031" size="52,38"/>
 	</screen>
 	
 	<!-- Volume -->
 
 	<screen name="Volume" title="Volume" position="0,360" size="30,330" backgroundColor="transpBlack" zPosition="1" flags="wfNoBorder">
-		<widget name="Volume" pixmap="infobar/volumeslider.png" position="0,3" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="infobar/vol_box.png" position="0,303" size="30,24" alphatest="on" zPosition="4"/>
+		<widget name="Volume" pixmap="delta-blackred-fhd/infobar/volumeslider.png" position="0,3" size="30,300" orientation="orBottomToTop" transparent="1" zPosition="1"/>
+		<ePixmap pixmap="delta-blackred-fhd/infobar/vol_box.png" position="0,303" size="30,24" alphatest="on" zPosition="4"/>
 	</screen>
 
 	<screen name="Mute" title="Mute" position="center,15" size="45,45" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
-		<ePixmap pixmap="infobar/mute.png" position="0,0" size="45,45" alphatest="on" zPosition="0"/>
+		<ePixmap pixmap="delta-blackred-fhd/infobar/mute.png" position="0,0" size="45,45" alphatest="on" zPosition="0"/>
 	</screen>
 
 	<!-- Buffer Indicator -->
