@@ -12,19 +12,15 @@
 	</output>
 
 	<fonts>
-		<font name="Regular" filename="LiberationSans-Regular.ttf" scale="100"/>
-		<font name="LCD" filename="lcd.ttf" scale="100"/>
-		<font name="Console" filename="tuxtxt.ttf" scale="100"/>
-		<font name="Fixed" filename="andale.ttf" scale="100"/>
+		<font name="Regular" filename="nmsbdh.ttf" scale="100" />
+        <font name="LCD" filename="lcd.ttf" scale="100" />
+        <font name="Console" filename="tuxtxt.ttf" scale="100" />
+        <font name="Fixed" filename="andale.ttf" scale="100" />
 		<font name="DejaVuSans" filename="DejaVuSans.ttf" scale="100"/>
 		<font name="error" filename="error.ttf" scale="100"/>
-		<font name="Regular" filename="tiny.ttf" scale="94" />
         <font name="Menu" filename="nmsbd.ttf" scale="100" />
-        <font name="PG" filename="venus.ttf" scale="100" />		
-		<font name="LCD" filename="lcd.ttf" scale="100"/>
-		<font name="Console" filename="tuxtxt.ttf" scale="100"/>
-		<font name="Fixed" filename="andale.ttf" scale="100"/>
-		<font name="DejaVuSans" filename="DejaVuSans.ttf" scale="100"/>
+        <font name="PG" filename="venus.ttf" scale="100" />	
+	<!-- -->		
 		<alias name="ChoiceList" font="Regular" size="28" height="38"/>
 		<alias name="TextNormal" font="Regular" size="28" height="38"/>
 		<alias name="ChoiceBoxDescription" font="Regular" size="22" height="25"/>
