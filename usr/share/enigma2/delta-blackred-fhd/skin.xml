@@ -15,6 +15,7 @@
         <font name="Fixed" filename="andale.ttf" scale="100" />
 		<font name="DejaVuSans" filename="DejaVuSans.ttf" scale="100"/>
         <font name="Menu" filename="nmsbd.ttf" scale="100" />
+		<font name="Console" filename="tuxtxt.ttf" scale="100"/>
 		<font name="Console" filename="/usr/share/enigma2/delta-blackred-fhd/fonts/tuxtxt.ttf" scale="100"/>		
 		<font name="PG" filename="/usr/share/enigma2/delta-blackred-fhd/fonts/venus.ttf" scale="100"/>
 		<font name="error" filename="/usr/share/enigma2/delta-blackred-fhd/fonts/error.ttf" scale="100"/>
